@@ -11,6 +11,15 @@
 		5F191C5829F3053C0002842E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F191C5729F3053C0002842E /* ContentView.swift */; };
 		5F191C5A29F3053E0002842E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F191C5929F3053E0002842E /* Assets.xcassets */; };
 		5F191C5D29F3053E0002842E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F191C5C29F3053E0002842E /* Preview Assets.xcassets */; };
+		5F191C6429F3057A0002842E /* BurnSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F191C6329F3057A0002842E /* BurnSummary.swift */; };
+		5F191C6629F30D850002842E /* Color+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F191C6529F30D850002842E /* Color+EXT.swift */; };
+		5F191C6829F30FB60002842E /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F191C6729F30FB60002842E /* constants.swift */; };
+		5F191C6A29F30FC80002842E /* View+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F191C6929F30FC80002842E /* View+EXT.swift */; };
+		5F191C6C29F312E30002842E /* BurnBallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F191C6B29F312E30002842E /* BurnBallView.swift */; };
+		5F191C6E29F312F30002842E /* AddToJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F191C6D29F312F30002842E /* AddToJournalView.swift */; };
+		5F191C7029F34EED0002842E /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F191C6F29F34EED0002842E /* CheckBox.swift */; };
+		5F191C7229F351850002842E /* JournalEntryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F191C7129F351850002842E /* JournalEntryType.swift */; };
+		5F191C7429F3649F0002842E /* BurnReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F191C7329F3649F0002842E /* BurnReading.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		5F191C5729F3053C0002842E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5F191C5929F3053E0002842E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F191C5C29F3053E0002842E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5F191C6329F3057A0002842E /* BurnSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurnSummary.swift; sourceTree = "<group>"; };
+		5F191C6529F30D850002842E /* Color+EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+EXT.swift"; sourceTree = "<group>"; };
+		5F191C6729F30FB60002842E /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		5F191C6929F30FC80002842E /* View+EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+EXT.swift"; sourceTree = "<group>"; };
+		5F191C6B29F312E30002842E /* BurnBallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurnBallView.swift; sourceTree = "<group>"; };
+		5F191C6D29F312F30002842E /* AddToJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToJournalView.swift; sourceTree = "<group>"; };
+		5F191C6F29F34EED0002842E /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		5F191C7129F351850002842E /* JournalEntryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryType.swift; sourceTree = "<group>"; };
+		5F191C7329F3649F0002842E /* BurnReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurnReading.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +71,15 @@
 			children = (
 				5F191C5529F3053C0002842E /* BurnExampleApp.swift */,
 				5F191C5729F3053C0002842E /* ContentView.swift */,
+				5F191C6329F3057A0002842E /* BurnSummary.swift */,
+				5F191C6B29F312E30002842E /* BurnBallView.swift */,
+				5F191C6D29F312F30002842E /* AddToJournalView.swift */,
 				5F191C5929F3053E0002842E /* Assets.xcassets */,
 				5F191C5B29F3053E0002842E /* Preview Content */,
+				5F191C6729F30FB60002842E /* constants.swift */,
+				5F191C7729F364F50002842E /* Extensions */,
+				5F191C7529F364C40002842E /* Models */,
+				5F191C7629F364CC0002842E /* UICompnents */,
 			);
 			path = BurnExample;
 			sourceTree = "<group>";
@@ -65,6 +90,32 @@
 				5F191C5C29F3053E0002842E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5F191C7529F364C40002842E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F191C7329F3649F0002842E /* BurnReading.swift */,
+				5F191C7129F351850002842E /* JournalEntryType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5F191C7629F364CC0002842E /* UICompnents */ = {
+			isa = PBXGroup;
+			children = (
+				5F191C6F29F34EED0002842E /* CheckBox.swift */,
+			);
+			path = UICompnents;
+			sourceTree = "<group>";
+		};
+		5F191C7729F364F50002842E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5F191C6529F30D850002842E /* Color+EXT.swift */,
+				5F191C6929F30FC80002842E /* View+EXT.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +188,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F191C6429F3057A0002842E /* BurnSummary.swift in Sources */,
+				5F191C6629F30D850002842E /* Color+EXT.swift in Sources */,
+				5F191C7029F34EED0002842E /* CheckBox.swift in Sources */,
+				5F191C6A29F30FC80002842E /* View+EXT.swift in Sources */,
+				5F191C6E29F312F30002842E /* AddToJournalView.swift in Sources */,
 				5F191C5829F3053C0002842E /* ContentView.swift in Sources */,
+				5F191C7229F351850002842E /* JournalEntryType.swift in Sources */,
+				5F191C6829F30FB60002842E /* constants.swift in Sources */,
+				5F191C6C29F312E30002842E /* BurnBallView.swift in Sources */,
 				5F191C5629F3053C0002842E /* BurnExampleApp.swift in Sources */,
+				5F191C7429F3649F0002842E /* BurnReading.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
